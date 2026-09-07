@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidar Yahya Syarif - Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="profile-image-container">
+                        <img src="images/profile.jpeg" alt="Haidar Yahya Syarif" class="profile-image">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Haidar Yahya Syarif</h1>
+                        <h2 class="hero-subtitle">Information Systems Student</h2>
+                        <p class="hero-description">
+                            Undergraduate student in Information Systems at Universitas Negeri Semarang (UNNES), 
+                            Faculty of Mathematics and Natural Sciences.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://github.com/yahyasyarif9" target="_blank" class="social-link">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/haidar-yahya-syarif-580468344" target="_blank" class="social-link">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/haidaryahyaa" target="_blank" class="social-link">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="header-buttons">
+                            <a href="#contact" class="btn btn-primary btn-custom">
+                                <i class="bi bi-envelope-fill me-2"></i>Contact Me
+                            </a>
+                            <a href="#projects" class="btn btn-outline-primary btn-custom-outline">
+                                <i class="bi bi-folder-fill me-2"></i>View Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Running Text / Marquee -->
+    <div class="running-text-container">
+        <div class="running-text">
+            <span>Information Systems Student</span>
+            <span>Web Developer</span>
+            <span>Data Enthusiast</span>
+            <span>Technology Lover</span>
+            <span>Information Systems Student</span>
+            <span>Web Developer</span>
+            <span>Data Enthusiast</span>
+            <span>Technology Lover</span>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-person-circle me-2"></i>Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="bi bi-house-fill me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-person-fill me-1"></i>About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            <i class="bi bi-tools me-1"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            <i class="bi bi-briefcase-fill me-1"></i>Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container with Sidebar Layout -->
+    <div class="container-fluid main-wrapper">
+        <div class="row">
+            
+            <!-- Sidebar -->
+            <aside class="col-lg-3 sidebar">
+                <div class="sidebar-content">
+                    <h3 class="sidebar-title">
+                        <i class="bi bi-info-circle-fill me-2"></i>Quick Info
+                    </h3>
+                    
+                    <div class="info-card">
+                        <div class="info-item">
+                            <i class="bi bi-mortarboard-fill"></i>
+                            <div>
+                                <strong>University</strong>
+                                <p>Universitas Negeri Semarang</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="bi bi-book-fill"></i>
+                            <div>
+                                <strong>Major</strong>
+                                <p>Information Systems</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="bi bi-building"></i>
+                            <div>
+                                <strong>Faculty</strong>
+                                <p>Mathematics & Natural Sciences</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Semarang, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <h3 class="sidebar-title mt-4">
+                        <i class="bi bi-link-45deg me-2"></i>Quick Links
+                    </h3>
+                    <div class="quick-links">
+                        <a href="#about" class="quick-link-item">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            <span>About Me</span>
+                        </a>
+                        <a href="#skills" class="quick-link-item">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            <span>My Skills</span>
+                        </a>
+                        <a href="#projects" class="quick-link-item">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            <span>Projects</span>
+                        </a>
+                    </div>
+
+                    <!-- Status Badge -->
+                    <div class="status-badge mt-4">
+                        <span class="badge bg-success">
+                            <i class="bi bi-circle-fill pulse-dot"></i>
+                            Available for Projects
+                        </span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-lg-9 main-content">
+                
+                <!-- About Section -->
+                <section id="about" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <i class="bi bi-person-badge-fill me-2"></i>About Me
+                        </h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about-content">
+                                <p class="lead">
+                                    Halo! Saya <strong>Haidar Yahya Syarif</strong>, mahasiswa Sistem Informasi di Universitas Negeri Semarang (UNNES).
+                                </p>
+                                <p>
+                                    Saya memiliki passion yang kuat dalam bidang teknologi informasi, khususnya dalam pengembangan web 
+                                    dan analisis sistem. Sebagai mahasiswa Sistem Informasi, saya terus belajar dan mengembangkan 
+                                    kemampuan saya dalam berbagai aspek teknologi.
+                                </p>
+                                <p>
+                                    Saya percaya bahwa teknologi dapat memberikan solusi untuk berbagai permasalahan di kehidupan 
+                                    sehari-hari. Melalui pendidikan di UNNES, saya mengasah kemampuan teknis dan soft skills 
+                                    untuk menjadi profesional IT yang kompeten.
+                                </p>
+                                
+                                <div class="row mt-4">
+                                    <div class="col-md-6">
+                                        <h4 class="mb-3">
+                                            <i class="bi bi-star-fill text-warning me-2"></i>Interests
+                                        </h4>
+                                        <ul class="interest-list">
+                                            <li><i class="bi bi-check-circle-fill"></i> Web Development</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Database Management</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> System Analysis</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> UI/UX Design</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 class="mb-3">
+                                            <i class="bi bi-trophy-fill text-warning me-2"></i>Goals
+                                        </h4>
+                                        <ul class="interest-list">
+                                            <li><i class="bi bi-check-circle-fill"></i> Full-Stack Developer</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> System Analyst</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Technology Innovator</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Lifelong Learner</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section id="skills" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <i class="bi bi-lightning-charge-fill me-2"></i>Skills & Technologies
+                        </h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="bi bi-code-slash"></i>
+                                    <h4>Frontend Development</h4>
+                                </div>
+                                <div class="skill-badges">
+                                    <span class="badge skill-badge">HTML5</span>
+                                    <span class="badge skill-badge">CSS3</span>
+                                    <span class="badge skill-badge">JavaScript</span>
+                                    <span class="badge skill-badge">Bootstrap</span>
+                                    <span class="badge skill-badge">Responsive Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="bi bi-server"></i>
+                                    <h4>Backend Development</h4>
+                                </div>
+                                <div class="skill-badges">
+                                    <span class="badge skill-badge">PHP</span>
+                                    <span class="badge skill-badge">MySQL</span>
+                                    <span class="badge skill-badge">Python</span>
+                                    <span class="badge skill-badge">Database Design</span>
+                                    <span class="badge skill-badge">API</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="bi bi-tools"></i>
+                                    <h4>Tools & Technologies</h4>
+                                </div>
+                                <div class="skill-badges">
+                                    <span class="badge skill-badge">Git & GitHub</span>
+                                    <span class="badge skill-badge">VS Code</span>
+                                    <span class="badge skill-badge">Figma</span>
+                                    <span class="badge skill-badge">XAMPP</span>
+                                    <span class="badge skill-badge">Postman</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 mb-4">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="bi bi-graph-up"></i>
+                                    <h4>Soft Skills</h4>
+                                </div>
+                                <div class="skill-badges">
+                                    <span class="badge skill-badge">Problem Solving</span>
+                                    <span class="badge skill-badge">Teamwork</span>
+                                    <span class="badge skill-badge">Communication</span>
+                                    <span class="badge skill-badge">Time Management</span>
+                                    <span class="badge skill-badge">Adaptability</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            <i class="bi bi-folder-fill me-2"></i>My Projects
+                        </h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <!-- Project 1: Portfolio Website (Current) -->
+                        <div class="col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/portfolio-web.png" alt="Portfolio Website">
+                                    <div class="project-overlay">
+                                        <a href="https://github.com/yahyasyarif9" target="_blank" class="btn btn-light btn-sm">
+                                            <i class="bi bi-github"></i> GitHub
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h4>Personal Portfolio Website</h4>
+                                    <p>Website portofolio pribadi dengan desain modern dan responsif menggunakan HTML, CSS, dan Bootstrap untuk Praktikum Pemrograman Web.</p>
+                                    <div class="project-tags">
+                                        <span class="badge bg-primary">HTML5</span>
+                                        <span class="badge bg-primary">CSS3</span>
+                                        <span class="badge bg-primary">Bootstrap 5</span>
+                                        <span class="badge bg-primary">JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 2: TopUp Game System -->
+                        <div class="col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/topup-game.png" alt="TopUp Game System">
+                                    <div class="project-overlay">
+                                        <a href="https://github.com/yahyasyarif9/Projek-SBD_TopUp-Game" target="_blank" class="btn btn-light btn-sm">
+                                            <i class="bi bi-github"></i> GitHub
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h4>TopUp Game System</h4>
+                                    <p>Sistem informasi berbasis web untuk layanan top up game dengan fitur payment gateway, admin dashboard, dan manajemen transaksi. Project Sistem Basis Data.</p>
+                                    <div class="project-tags">
+                                        <span class="badge bg-success">PHP</span>
+                                        <span class="badge bg-success">MySQL</span>
+                                        <span class="badge bg-success">Payment Gateway</span>
+                                        <span class="badge bg-success">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 3: Simple Web HTML -->
+                        <div class="col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/simple-html.png" alt="Simple Web HTML">
+                                    <div class="project-overlay">
+                                        <a href="https://github.com/yahyasyarif9/simpleweb_html" target="_blank" class="btn btn-light btn-sm">
+                                            <i class="bi bi-github"></i> GitHub
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h4>Simple Web HTML</h4>
+                                    <p>Kumpulan halaman web sederhana untuk pembelajaran HTML dasar meliputi heading, paragraph, list, table, button, image, dan elemen HTML lainnya.</p>
+                                    <div class="project-tags">
+                                        <span class="badge bg-danger">HTML5</span>
+                                        <span class="badge bg-danger">Web Fundamentals</span>
+                                        <span class="badge bg-danger">Learning Project</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 4: Information Systems -->
+                        <div class="col-md-6 mb-4">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="https://via.placeholder.com/500x300/ffc107/000000?text=Information+Systems" alt="Information Systems">
+                                    <div class="project-overlay">
+                                        <a href="https://github.com/yahyasyarif9" target="_blank" class="btn btn-light btn-sm">
+                                            <i class="bi bi-github"></i> GitHub
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h4>Information Systems Projects</h4>
+                                    <p>Berbagai project sistem informasi sebagai bagian dari pembelajaran di Program Studi Sistem Informasi UNNES, mencakup analisis, desain, dan implementasi sistem.</p>
+                                    <div class="project-tags">
+                                        <span class="badge bg-warning text-dark">System Analysis</span>
+                                        <span class="badge bg-warning text-dark">Database Design</span>
+                                        <span class="badge bg-warning text-dark">UML</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-4">
+                        <a href="https://github.com/yahyasyarif9" target="_blank" class="btn btn-primary btn-lg">
+                            <i class="bi bi-github me-2"></i>View All Projects on GitHub
+                        </a>
+                    </div>
+                </section>
+
+            </main>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Haidar Yahya Syarif</h5>
+                    <p>Information Systems Student at UNNES</p>
+                    <p class="mb-0">
+                        <i class="bi bi-geo-alt-fill me-2"></i>Semarang, Indonesia
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Follow Me</h5>
+                    <div class="footer-social">
+                        <a href="https://github.com/yahyasyarif9" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/haidar-yahya-syarif-580468344" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/haidaryahyaa" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                    <p class="mt-3">
+                        <i class="bi bi-envelope-fill me-2"></i>Open for collaboration
+                    </p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">
+                        &copy; 2026 Haidar Yahya Syarif. Made with <i class="bi bi-heart-fill text-danger"></i> for Praktikum Pemrograman Web
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
