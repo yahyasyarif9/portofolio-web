@@ -184,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
         
         <div class="text-center mt-3">
-            <a href="../index.html" class="text-decoration-none">
+            <a href="../index.php" class="text-decoration-none">
                 <i class="bi bi-arrow-left me-1"></i>Kembali ke Homepage
             </a>
         </div>

@@ -165,7 +165,7 @@ $result = mysqli_query($conn, $sql);
                 </a>
             </li>
             <li>
-                <a href="../index.html" target="_blank">
+                <a href="../index.php" target="_blank">
                     <i class="bi bi-globe me-2"></i>View Website
                 </a>
             </li>
