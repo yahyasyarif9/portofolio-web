@@ -1063,3 +1063,39 @@ button:focus-visible {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s ease;
 }
+
+
+/* ===================================
+   Login Button in Navbar
+   =================================== */
+
+.btn-login-nav {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 8px 20px !important;
+    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.btn-login-nav:hover {
+    background: white !important;
+    color: var(--primary-blue) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-login-nav i {
+    font-size: 1.1rem;
+}
+
+/* Mobile responsiveness for login button */
+@media (max-width: 991px) {
+    .btn-login-nav {
+        margin-left: 0;
+        margin-top: 10px;
+        display: inline-block;
+        width: auto;
+    }
+}
