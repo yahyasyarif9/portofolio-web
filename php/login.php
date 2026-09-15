@@ -124,18 +124,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         .alert {
             border-radius: 10px;
         }
-        
-        .demo-credentials {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 20px;
-            font-size: 0.9rem;
-        }
-        
-        .demo-credentials strong {
-            color: #0d6efd;
-        }
     </style>
 </head>
 <body>
@@ -189,6 +177,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </button>
         </form>
         
+        <div class="demo-credentials">
+            <strong>Demo Credentials:</strong><br>
+            <i class="bi bi-person me-1"></i><strong>Username:</strong> haidar<br>
+            <i class="bi bi-key me-1"></i><strong>Password:</strong> admin123
         </div>
         
         <div class="text-center mt-3">
