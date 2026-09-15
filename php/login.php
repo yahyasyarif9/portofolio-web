@@ -143,7 +143,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="login-header">
             <i class="bi bi-person-circle" style="font-size: 4rem; color: #0d6efd;"></i>
             <h2>Login Admin</h2>
-            <p>Portfolio Management System</p>
         </div>
         
         <?php if ($error): ?>
@@ -190,10 +189,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </button>
         </form>
         
-        <div class="demo-credentials">
-            <strong>Demo Credentials:</strong><br>
-            <i class="bi bi-person me-1"></i><strong>Username:</strong> haidar<br>
-            <i class="bi bi-key me-1"></i><strong>Password:</strong> admin123
         </div>
         
         <div class="text-center mt-3">
